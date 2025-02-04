@@ -1,15 +1,56 @@
-# Ukázkový projekt
+# Nadpis úrovně 1
 
-Píšu text
+## Nadpis úrovně 2
 
-Nový odstavec něco **tučně**
+### Nadpis úrovně 3
 
-- odrážka
-- odrážka
+Toto je běžný odstavec textu, ve kterém se objeví **tučný text** a *kurzíva*.
 
-1. číslovaný
-2. další
-3. další
+---
 
+## Seznamy
 
+### Nečíslovaný seznam
 
+- První položka
+- Druhá položka
+  - Vnořená položka
+- Třetí položka
+
+### Číslovaný seznam
+
+1. První položka
+2. Druhá položka
+3. Třetí položka
+
+---
+
+## Odkaz
+
+[Odkaz na Panskou](https://www.panska.cz)
+
+---
+
+## Kód
+
+Inlinový kód: `print("Hello, World!")`
+
+Blok kódu:
+
+```python
+# Ukázkový Python kód
+def hello():
+    print("Hello, World!")
+
+hello()
+```
+
+---
+
+## Tabulka
+
+| Jméno   | Věk | Město       |
+|---------|----:|------------|
+| Jan     |  25 | Praha      |
+| Petra   |  30 | Brno       |
+| Karel   |  22 | Ostrava    |
