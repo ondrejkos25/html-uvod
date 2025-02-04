@@ -1,9 +1,91 @@
+/* Obal pro centrální zarovnání */
 .obal {
   max-width: 800px;
-  margin: auto;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Celkové nastavení stránky */
 body {
-  font-family: arial, sans-serif; /* písmo */
-} 
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
 
+/* Nadpisy */
+h1 {
+  color: #0056b3;
+  text-align: center;
+}
+
+h2 {
+  color: #0073e6;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 5px;
+}
+
+h3 {
+  color: #0099cc;
+}
+
+/* Odkazy */
+a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Odstavce a text */
+p {
+  margin-bottom: 15px;
+}
+
+/* Seznamy */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Zvýraznění textu */
+mark {
+  background-color: #ffeb3b;
+  padding: 2px 5px;
+}
+
+/* Stylizace kódu */
+pre {
+  background: #272822;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-family: monospace;
+}
+
+code {
+  background: #f4f4f4;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* Obrázky */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 5px;
+}
